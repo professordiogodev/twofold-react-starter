@@ -13,6 +13,7 @@ import CTANewsletter from './components/CTANewsletter'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
 import ContextSection from './components/ContextSection'
+import Grid from './components/Grid'
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
     <>
       {/* Largura Total - 1440px */} 
       {/* Conteúdo Principal - 1180px */} 
+
+      <Grid />
 
       <MainContainer>
         <Header />
